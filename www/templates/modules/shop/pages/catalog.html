@@ -7,10 +7,9 @@
                 </ol>
             </div>
         </div>
-        <div class="row ">    
+        <div class="row ">   
             <div class="col-12 col-sm-4   col-lg-3 col-xl-2 ">    
-
-                <form zippy="sfilter">
+                <form zippy="sfilter" class="sfilter">
                     <div class="form-group"> 
                         <label>Поиск</label>  
                         <input zippy="searchkey" class="form-control">
@@ -18,7 +17,7 @@
                             <label>Цена</label> 
                         </div>  
                         <div class="input-group  ">
-                            <span class="input-group-addon"  > с</span>
+                            <span class="input-group-addon"  > З</span>
                             <input pattern="[0-9]+"  type="text" zippy="pricefrom" class="form-control"  style="width:50px;"/>
                             <span  class="input-group-addon"   > по</span>
                             <input pattern="[0-9]+" type="text" zippy="priceto" class="form-control"  style="width:50px;"/>
@@ -33,7 +32,7 @@
                     </div> 
 
                     <div class="form-group" style="margin-top:10px;">
-                        <input class="btn btn-info btn-sm  " type="submit" value="Применить">&nbsp;<a class="btn btn-light  btn-sm " zippy="sclear">Сброс</a>
+                        <input class="btn btn-info btn-sm  " type="submit" value="Применить">&nbsp;<a class="btn btn-light  btn-sm " zippy="sclear">Сбросить</a>
                     </div>
                 </form>
 
@@ -47,11 +46,11 @@
                             <label>Сортировать&nbsp;</label>
                             <select class="form-control" zippy="sortorder" >
                                 <option value="0">По возрастанию цены</option>
-                                <option value="1">По уменьшению цены</option>
+                                <option value="1">По убыванию цены</option>
                                 <option value="2">По рейтингу</option>
                                 <option value="3">По количеству отзывов</option>
                                 <option value="4">По продажам</option>
-                                <option value="5">По наименование</option>
+                                <option value="5">По наименованию</option>
                             </select>
 
                         </form> <br>                         
@@ -76,16 +75,15 @@
                                 </div>
                             </div>
                             <a zippy="sbuy" class="btn btn-success btn-sm">Купить</a>
-
                         </div>
+						<br>
                     </div>
                     <div zippy="pag" class="col-12">    
 
                     </div>                
                 </div>                
-
+				<br>
                 <div   zippy="recentlyp">    
-
                     <h4>Недавно просмотренные</h4>
                     <div class="row"  > 
                         <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"   zippy="rlist">                        
@@ -95,8 +93,8 @@
                             </div>
                         </div>
                     </div>
+					<br>
                 </div>
-
             </div>
         </div>
 
