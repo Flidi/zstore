@@ -215,6 +215,7 @@ span
   color: #fff;
 }
 .list-group-item + .list-group-item 
+
 {
   border-top-width: 1px;
   /* border-top-style: dashed; */
